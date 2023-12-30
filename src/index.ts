@@ -6,6 +6,8 @@ var server = http.createServer(function(request: any, response: any) {
     response.writeHead(404);
     response.end();
 });
+
+
 server.listen(8080, function() {
     console.log((new Date()) + ' Server is listening on port 8080');
 });
